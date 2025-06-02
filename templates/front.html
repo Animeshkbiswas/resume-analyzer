@@ -434,7 +434,8 @@
       formData.append("file", file);
 
       try {
-        const res = await fetch("http://localhost:5000/api/upload-resume", {
+        const res = await fetch("/api/upload-resume", {
+
           method: "POST",
           body: formData
         });
@@ -470,7 +471,7 @@
       };
       
       try {
-        const res = await fetch("http://localhost:5000/api/analyze-resume", {
+        const res = await fetch("/api/analyze-resume", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
           body: JSON.stringify(analysisData)
