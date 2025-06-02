@@ -65,6 +65,9 @@ def analyze_resume():
         # Prompt the model
         prompt = f"""
 You are a professional resume evaluator.
+please go through the work experience, skills, and education sections of the resume see what the projects is and wheater it matches the job description and requirements.
+analyze the projects and you check if the projects match the job description and requirements.
+also score the resume out of 100 if the projects don't match the job description and requirements decrease the cv, point out key improvements, and suggest how to tailor it.
 
 Analyze the resume below for a software engineering position.
 Respond ONLY in this exact JSON format (no extra commentary):
