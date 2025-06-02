@@ -73,10 +73,10 @@ Analyze the resume below for a software engineering position.
 Respond ONLY in this exact JSON format (no extra commentary):
 
 {{
-  "score": 85,
-  "matchingSkills": ["Python", "Django", "Git"],
-  "missingSkills": ["AWS", "CI/CD"],
-  "suggestions": ["Add more cloud experience", "Include recent projects", "Quantify achievements"]
+  "score": <int>, 
+  "matchingSkills": [<skill1>, <skill2>, ...], 
+  "missingSkills": [<skill1>, <skill2>, ...], 
+  "suggestions": [<suggestion1>, <suggestion2>, ...]
 }}
 
 Resume:
