@@ -67,7 +67,7 @@ def analyze_resume():
 You are a professional resume evaluator.
 please go through the work experience, skills, and education sections of the resume see what the projects is and wheater it matches the job description and requirements.
 analyze the projects and you check if the projects match the job description and requirements.
-also score the resume out of 100 if the projects don't match the job description and requirements decrease the cv, point out key improvements, and suggest how to tailor it.
+also score the resume out of 100 if the projects don't match the job description and requirements decrease the score,always give a harsh score only if projects are complicated give a good score, point out key improvements, and suggest how to tailor it.
 Strictly check whether the uploaded text is a resume or not give a score of 0 if it is not a resume.
 Analyze the resume below for the job description provided.
 Respond ONLY in this exact JSON format (no extra commentary):
