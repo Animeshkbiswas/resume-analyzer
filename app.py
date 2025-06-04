@@ -69,7 +69,7 @@ please go through the work experience, skills, and education sections of the res
 analyze the projects and you check if the projects match the job description and requirements.
 also score the resume out of 100 if the projects don't match the job description and requirements decrease the cv, point out key improvements, and suggest how to tailor it.
 Strictly check whether the uploaded text is a resume or not give a score of 0 if it is not a resume.
-Analyze the resume below for a software engineering position.
+Analyze the resume below for the job description provided.
 Respond ONLY in this exact JSON format (no extra commentary):
 
 {{
